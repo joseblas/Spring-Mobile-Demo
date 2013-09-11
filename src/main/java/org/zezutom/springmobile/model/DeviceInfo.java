@@ -70,4 +70,15 @@ public class DeviceInfo implements Device {
     public void setCapabilities(Map<String, Object> capabilities) {
         this.capabilities = capabilities;
     }
+
+	@Override
+	public boolean isNormal() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean isTablet() {
+		return false;
+	}
 }
